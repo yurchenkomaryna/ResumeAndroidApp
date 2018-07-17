@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maryna Yurchenko"
+        android:textAlignment="center"
+        tools:textAlignment="center"
+        tools:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/profile" />
+
+    <Button
+        android:id="@+id/workHistory"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:text="WORK HISTORY"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/callMaryna"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="CALL MARYNA"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="EMAIL"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</LinearLayout>
